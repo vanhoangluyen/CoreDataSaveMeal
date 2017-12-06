@@ -13,6 +13,7 @@
 		561E70251FD795DC00E91DFE /* CoreDataSaveMeal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 561E70231FD795DC00E91DFE /* CoreDataSaveMeal.xcdatamodeld */; };
 		561E70271FD795DC00E91DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561E70261FD795DC00E91DFE /* Assets.xcassets */; };
 		561E702A1FD795DC00E91DFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561E70281FD795DC00E91DFE /* LaunchScreen.storyboard */; };
+		569B888D1FD7D7F100C165E8 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B888C1FD7D7F100C165E8 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		561E70261FD795DC00E91DFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		561E70291FD795DC00E91DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		561E702B1FD795DC00E91DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		569B888C1FD7D7F100C165E8 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				561E701C1FD795DC00E91DFE /* AppDelegate.swift */,
 				561E701E1FD795DC00E91DFE /* ViewController.swift */,
+				569B888C1FD7D7F100C165E8 /* DetailVC.swift */,
 				561E70201FD795DC00E91DFE /* Main.storyboard */,
 				561E70261FD795DC00E91DFE /* Assets.xcassets */,
 				561E70281FD795DC00E91DFE /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				561E701F1FD795DC00E91DFE /* ViewController.swift in Sources */,
+				569B888D1FD7D7F100C165E8 /* DetailVC.swift in Sources */,
 				561E70251FD795DC00E91DFE /* CoreDataSaveMeal.xcdatamodeld in Sources */,
 				561E701D1FD795DC00E91DFE /* AppDelegate.swift in Sources */,
 			);
